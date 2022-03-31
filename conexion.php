@@ -13,7 +13,7 @@ class Conexion {
         $port = "5432";
         $dbname = "cuarto";
         $user = "postgres";
-        $password = "fioreschi2017";
+        $password = "";
         $cn = pg_connect("host='$host' port='$port' dbname='$dbname' user='$user' password='$password'");
         return $cn;
     }
@@ -22,7 +22,7 @@ class Conexion {
         $port = "5432";
         $dbname = "quinto";
         $user = "postgres";
-        $password = "fioreschi2017";
+        $password = "";
         $cn = pg_connect("host='$host' port='$port' dbname='$dbname' user='$user' password='$password'");
         return $cn;
     }
